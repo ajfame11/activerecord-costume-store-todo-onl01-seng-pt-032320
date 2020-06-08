@@ -9,7 +9,7 @@
 # value types according to the spec
 class CreateCostumes < ActiveRecord::Migration[5.2]
   def change
-    create_table :artists do |t|
+    create_table :costumes do |t|
       t.string :name
       t.string :genre
       t.integer :age

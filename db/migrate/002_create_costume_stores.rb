@@ -8,3 +8,4 @@ class CreateCostumeStores < ActiveRecord::Migration[5.2]
       t.integer :number_of_employees
     end
   end
+end

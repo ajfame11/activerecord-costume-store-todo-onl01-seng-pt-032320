@@ -3,10 +3,10 @@ class HauntedHouses < ActiveRecord::Migration[5.2]
   def change
     create_table :haunted_houses do |t|
       t.string :name
-      t.string :price
-      t.integer :size
-      t.string :image_url
-      t.timestamps
+      t.string :location
+      t.string :theme
+      t.integer :price
+      t.boolean :Family_friendly
     end
   end
 end
